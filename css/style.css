@@ -33,7 +33,7 @@ header::after{
 }
 .expo li:first-child{
     font-size: 22px;
-    /* margin-right: 35px; */
+    margin-right: 35px;
 }
 .expo li:last-child::before{
     content: '';
