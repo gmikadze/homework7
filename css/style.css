@@ -10,6 +10,7 @@ header{
     font-size: 16px;
     background-color: #FCFCFC;
     z-index: 100;
+    box-shadow: 0px 1px;
 }
 header a{
     text-decoration: none;
@@ -32,7 +33,7 @@ header::after{
 }
 .expo li:first-child{
     font-size: 22px;
-    margin-right: 35px;
+    /* margin-right: 35px; */
 }
 .expo li:last-child::before{
     content: '';
@@ -89,7 +90,7 @@ header::after{
     padding: 14px;
     border-radius: 22px;
 }
-.button a{
+.button a, .button2 a{
     text-decoration: none;
     color: white;
     font-size: 17px;
@@ -99,9 +100,10 @@ header::after{
     min-width: 1318px;
     position: relative;
     margin-top: 60px;
+    height: 200vh;
 }
 .publications{
-    box-shadow: 0 5 #707070;
+    box-shadow: 1px 1px #707070;
     max-width: 862px;
     padding: 45px;
     background-color: #FCFCFC;
@@ -145,7 +147,8 @@ header::after{
     right: 0;
     top: 0;
     width: 400px;
-    margin-top: 14px;
+    box-shadow: 1px 1px #707070;
+    border-radius: 22px;
 }
 .trip{
     position: relative;
@@ -164,17 +167,27 @@ header::after{
     font-size: 32px;
     line-height: 44px;
 }
+.button2{
+    margin-top: 21px;
+    background-color: rgba(98, 148, 163, 0.5);
+    color: white;
+    display: inline-block;
+    height: 44px;
+    padding: 14px;
+    border-radius: 22px;
+}
 .sub{
     position: absolute;
     width: 385px;
     height: 270px;
     background-color: #FCFCFC;
     right: 0;
-    top: 300px;
+    top: 310px;
     font-size: 15px;
     line-height: 21px;
     padding: 40px;
     border-radius: 17px;
+    box-shadow: 1px 1px #707070;
 }
 .sub h3{
     line-height: 36px;
